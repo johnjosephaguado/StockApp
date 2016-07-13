@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SAStocksViewController.h
 //  StocksApp
 //
 //  Created by Kape Man on 13/07/2016.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SAStocksViewController : UIViewController
 
 @end
-

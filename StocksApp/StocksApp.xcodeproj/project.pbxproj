@@ -10,10 +10,13 @@
 		8CB3C999EDA108D5236E2DAD /* libPods-StocksApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA0C666174300C8C4ECB441 /* libPods-StocksApp.a */; };
 		B708B31A1D3662FF00B25200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B708B3191D3662FF00B25200 /* main.m */; };
 		B708B31D1D3662FF00B25200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B708B31C1D3662FF00B25200 /* AppDelegate.m */; };
-		B708B3201D3662FF00B25200 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B708B31F1D3662FF00B25200 /* ViewController.m */; };
 		B708B3231D3662FF00B25200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B708B3211D3662FF00B25200 /* Main.storyboard */; };
 		B708B3251D3662FF00B25200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B708B3241D3662FF00B25200 /* Assets.xcassets */; };
 		B708B3281D3662FF00B25200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B708B3261D3662FF00B25200 /* LaunchScreen.storyboard */; };
+		B708B3351D36666000B25200 /* SAMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B708B3341D36666000B25200 /* SAMainTabBarViewController.m */; };
+		B708B33E1D3666C300B25200 /* SAStocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B708B33C1D3666C300B25200 /* SAStocksViewController.m */; };
+		B708B33F1D3666C300B25200 /* SAStocksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B708B33D1D3666C300B25200 /* SAStocksViewController.xib */; };
+		B708B3431D366A8300B25200 /* SAWebServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B708B3421D366A8300B25200 /* SAWebServiceHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +26,17 @@
 		B708B3191D3662FF00B25200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B708B31B1D3662FF00B25200 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B708B31C1D3662FF00B25200 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B708B31E1D3662FF00B25200 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B708B31F1D3662FF00B25200 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B708B3221D3662FF00B25200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B708B3241D3662FF00B25200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B708B3271D3662FF00B25200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B708B3291D3662FF00B25200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B708B3331D36666000B25200 /* SAMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMainTabBarViewController.h; sourceTree = "<group>"; };
+		B708B3341D36666000B25200 /* SAMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMainTabBarViewController.m; sourceTree = "<group>"; };
+		B708B33B1D3666C300B25200 /* SAStocksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAStocksViewController.h; sourceTree = "<group>"; };
+		B708B33C1D3666C300B25200 /* SAStocksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAStocksViewController.m; sourceTree = "<group>"; };
+		B708B33D1D3666C300B25200 /* SAStocksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAStocksViewController.xib; sourceTree = "<group>"; };
+		B708B3411D366A8300B25200 /* SAWebServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAWebServiceHelper.h; sourceTree = "<group>"; };
+		B708B3421D366A8300B25200 /* SAWebServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAWebServiceHelper.m; sourceTree = "<group>"; };
 		CFA0C666174300C8C4ECB441 /* libPods-StocksApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StocksApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,10 +90,10 @@
 		B708B3171D3662FF00B25200 /* StocksApp */ = {
 			isa = PBXGroup;
 			children = (
+				B708B3401D366A6D00B25200 /* Model */,
+				B708B3321D36666000B25200 /* Controller */,
 				B708B31B1D3662FF00B25200 /* AppDelegate.h */,
 				B708B31C1D3662FF00B25200 /* AppDelegate.m */,
-				B708B31E1D3662FF00B25200 /* ViewController.h */,
-				B708B31F1D3662FF00B25200 /* ViewController.m */,
 				B708B3211D3662FF00B25200 /* Main.storyboard */,
 				B708B3241D3662FF00B25200 /* Assets.xcassets */,
 				B708B3261D3662FF00B25200 /* LaunchScreen.storyboard */,
@@ -101,6 +109,27 @@
 				B708B3191D3662FF00B25200 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B708B3321D36666000B25200 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B708B3331D36666000B25200 /* SAMainTabBarViewController.h */,
+				B708B3341D36666000B25200 /* SAMainTabBarViewController.m */,
+				B708B33B1D3666C300B25200 /* SAStocksViewController.h */,
+				B708B33C1D3666C300B25200 /* SAStocksViewController.m */,
+				B708B33D1D3666C300B25200 /* SAStocksViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B708B3401D366A6D00B25200 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B708B3411D366A8300B25200 /* SAWebServiceHelper.h */,
+				B708B3421D366A8300B25200 /* SAWebServiceHelper.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B708B3281D3662FF00B25200 /* LaunchScreen.storyboard in Resources */,
+				B708B33F1D3666C300B25200 /* SAStocksViewController.xib in Resources */,
 				B708B3251D3662FF00B25200 /* Assets.xcassets in Resources */,
 				B708B3231D3662FF00B25200 /* Main.storyboard in Resources */,
 			);
@@ -224,7 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B708B3201D3662FF00B25200 /* ViewController.m in Sources */,
+				B708B3351D36666000B25200 /* SAMainTabBarViewController.m in Sources */,
+				B708B33E1D3666C300B25200 /* SAStocksViewController.m in Sources */,
+				B708B3431D366A8300B25200 /* SAWebServiceHelper.m in Sources */,
 				B708B31D1D3662FF00B25200 /* AppDelegate.m in Sources */,
 				B708B31A1D3662FF00B25200 /* main.m in Sources */,
 			);
