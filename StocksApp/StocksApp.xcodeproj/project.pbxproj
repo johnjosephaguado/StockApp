@@ -90,6 +90,7 @@
 		B708B3171D3662FF00B25200 /* StocksApp */ = {
 			isa = PBXGroup;
 			children = (
+				B708B3441D366B3500B25200 /* View */,
 				B708B3401D366A6D00B25200 /* Model */,
 				B708B3321D36666000B25200 /* Controller */,
 				B708B31B1D3662FF00B25200 /* AppDelegate.h */,
@@ -130,6 +131,13 @@
 				B708B3421D366A8300B25200 /* SAWebServiceHelper.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B708B3441D366B3500B25200 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
