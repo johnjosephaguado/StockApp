@@ -31,4 +31,62 @@
     [[manager dataTaskWithRequest:req completionHandler:handler] resume];
 }
 
+-(NSArray *) getStocksForCategory:(NSString *)category{
+    if([category.lowercaseString isEqualToString:@"top"]){
+        return [self mockTop];
+    }
+    else if([category.lowercaseString isEqualToString:@"gain"]){
+        return [self mockActive];
+    }
+    else if([category.lowercaseString isEqualToString:@"lose"]){
+        return [self mockDecline];
+    }
+    return nil;
+}
+
+-(NSArray *) mockTop{
+    return @[
+             @"SAGE",
+             @"MYOK",
+             @"STX",
+             @"VNRBP",
+             @"LGCYO",
+             @"AAL",
+             @"XENE",
+             @"DMTX",
+             @"CCLP",
+             @"AREX"
+             ];
+}
+
+-(NSArray *) mockActive{
+    return @[
+             @"AMZN",
+             @"QQQ",
+             @"AAPL",
+             @"TLT",
+             @"FB",
+             @"MSFT",
+             @"NFLX",
+             @"TSLA",
+             @"INTC",
+             @"GOOGL"
+             ];
+}
+
+-(NSArray *) mockDecline{
+    return @[
+             @"LONE",
+             @"ONS",
+             @"VOXX",
+             @"XBIT",
+             @"SPU",
+             @"UGLD",
+             @"TTOO",
+             @"PTIE",
+             @"ADHD",
+             @"OCUL"
+             ];
+}
+
 @end

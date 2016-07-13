@@ -12,5 +12,5 @@
 
 + (id)sharedHelper;
 -(void) getPath:(NSString *) path withParam:(NSDictionary *) param withHandler:(void(^)(NSURLResponse *response, id  responseObject, NSError *error)) handler;
-
+-(NSArray *) getStocksForCategory:(NSString *)category;
 @end

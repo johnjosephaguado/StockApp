@@ -18,13 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSArray *arr = [NSArray arrayWithObjects:@"Top", @"Gain", @"Lose", @"Me", nil];
+    NSArray *arr = [NSArray arrayWithObjects:@"Top", @"Gain", @"Lose", @"My Stocks", nil];
     NSMutableArray *vcTabs = [NSMutableArray array];
     
     for (NSString *arrItem in arr) {
         SAStocksViewController *vc = [[SAStocksViewController alloc] initWithNibName:@"SAStocksViewController" bundle:[NSBundle mainBundle]];
         vc.title = arrItem;
-        [vcTabs addObject:vc];
+//        vc.tabBarItem.image =
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+        
+        [vcTabs addObject:nav];
     }
     
     self.viewControllers = vcTabs;
